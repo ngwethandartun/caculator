@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    font-family: 'Roboto';
+    
+
+
+}
+.display{
+    padding: 15px;
+    background-color: bisque;
+    width: 500px;
+   height: 75px;
+    
+}
+
+
+.buttonnumber{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+}
